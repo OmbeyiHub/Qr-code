@@ -1,0 +1,57 @@
+/* Reset styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* Card styles */
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* QR Image */
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Content Styles */
+.content h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 14px;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.5;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  color: hsl(220, 15%, 55%);
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
